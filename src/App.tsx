@@ -4,6 +4,7 @@ import LinePlot from "./components/LinePlot";
 import { Pie } from "react-chartjs-2";
 import PiePlot from "./components/PiePlot";
 import BarPlot from "./components/BarPlot";
+import RadarPlot from "./components/RadarPlot";
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <LinePlot />
       <PiePlot />
       <BarPlot />
+      <RadarPlot />
     </div>
   );
 }
